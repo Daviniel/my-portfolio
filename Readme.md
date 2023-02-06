@@ -1,1 +1,2 @@
-Olá, esse projeto do meu portfólio.
+Meu portfólio
+Projeto em andamento

@@ -5,35 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daviniel</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="https: //fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" href="stylesheet">
 </head>
 <body>
-    <div class="hero">
-        <nav>
-            <h2 class="logo">Portfó<span>lio</span></h2>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Quem sou</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-            <a href="#" class="btn">xD</a>
-        </nav>
-        <div class="content">
-            <div class="main">
-                <div class="hi typing-animation">
-                    <h4>Olá, meu nome é</h4>
-                    <h1>Daviniel <span>Nascimento</span></h1>
-                    <h3>sou desenvolvedor front-end</h3>
-                </div>>
-                <a href="#" class="img">
-                    <img src="daviniel.png" alt="imagem">
-                </a>
+ <header>
+    <nav data-menu="suave">
+        <p><a href="#">&lsaquo;DvN&rsaquo;</a></p>
+        <ul data-menu="list" id="menu">
+            <a href="#home">
+                <li>Home</li>
+            </a>
+            <a href="#sobre">
+                <li>Sobre</li>
+            </a>
+            <a href="#experiencia">
+                <li>Experiência</li>
+            </a>
+            <a href="projetos">
+                <li>Projetos</li>
+            </a>
+        </ul>
+    </nav>
+ </header>
+    <main>
+        <section class="principal" id="home">
+            <div class="principal__left">
+                <h1>Olá, eu sou</h1>
+                <span class="pincipal__sentence">Daviniel Nascimento</span>
+                <span class="principal__input-cursor"></span>
+                <h1>Desenvolvedor Front-End</h1>
+                <div class="principal__botao">
+                    <a href="https://www.linkedin.com/in/daviniel-nascimento-b598a2210/" target="_blank">
+                        <div class="principal__botao-linkedin">
+                            <img src="img/linkedin.png" alt="linkedin">
+                            <p>linkedin</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Daviniel" target="_blank">
+                        <div class="principal__botao-github">
+                            <img src="img/github.png" alt="github">
+                            <p>Github</p>
+                        </div>
+                    </a>
+                </div>    
             </div>
-        </div>
-    </div>
-</body>
+            
+            <div class="principal__right">
+                <img src="img/daviniel.png" alt="Uma foto do desenvolvedor">
+            </div>
+            <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="img/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
+        </section>
+    </main>
 </html>

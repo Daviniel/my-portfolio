@@ -7,7 +7,7 @@
 .hero {
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #1b1a28;
     background-size: cover;
 }
 nav {
@@ -19,13 +19,13 @@ nav {
     padding-right: 8%;
 }
 .logo {
-    color: white;
+    color: #F8F6FF;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 span {
-    color: red;
+    color: rgb(110, 255, 252);
 }
 nav ul li {
     list-style-type: none;
@@ -33,18 +33,18 @@ nav ul li {
     padding: 10px 25px;
 }
 nav ul li a{
-    color: white;
+    color: #F8F6FF;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    color: red;
+    color: rgb(110, 255, 252);
     transition: .4s;
 }
 .btn{
-    background-color: red;
-    color: white;
+    background-color: rgb(110, 255, 252);
+    color: #F8F6FF;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -58,7 +58,7 @@ nav ul li a:hover{
 .content{
    width: 100%;
    padding: 100px 0px;
-   background-color: black;
+   background-color: transparent;
 }
 .main{
     width: 1130px;
@@ -69,6 +69,9 @@ nav ul li a:hover{
 }
 .hi{
     margin: 20px 0px 20px;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    white-space: nowrap;
+    overflow: hidden;
 }
 .img{
     height: auto;
@@ -76,23 +79,45 @@ nav ul li a:hover{
     text-align: right;
     border: 2px solid transparent;
     border-radius: 30px;
-    
+    padding: 0px 200px;
+    transition: all 5s ease-in-out;
+}
+.typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 10s steps(40) 1s normal;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 43em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(255,255,255,0.75)
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
 .img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 h1{
-    color: white;
+    color: #F8F6FF;
     margin: 20px 0px 20px;
     font-size: 70px;
 }
 h3{
-    color: white;
+    color: #F8F6FF;
     font-size: 25px;
     margin-bottom: 50px;
 }
 h4{
-    color: rgb(112, 110, 105);
+    color: #C3C8CF;
     letter-spacing: 2px;
     font-size: 20px;
 }

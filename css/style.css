@@ -284,3 +284,47 @@ a {
 .principal__botao-github img {
   width: 22px;
 }
+
+@media (max-width: 880px) {
+  .principal {
+    padding: 22% 0;
+    text-align: center;
+  }
+
+  .principal {
+    flex-direction: column;
+  }
+
+  .principal__left {
+    width: 90%;
+  }
+
+  .principal__right {
+    display: none;
+  }
+
+  .principal__botao {
+    width: 320px;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .principal span {
+    font-size: 1.8rem;
+  }
+
+  .principal .principal__input-cursor {
+    height: 30px;
+  }
+
+  .principal__botao-linkedin,
+  .principal__botao-github {
+    width: 110px;
+  }
+
+  .principal__botao {
+    width: auto;
+    justify-content: space-around;
+  }
+}

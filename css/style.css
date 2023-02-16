@@ -83,10 +83,10 @@ main {
     color: #c4c4c4;
 }
 
-.principal,
-.sobre-mim,
-.habilidades,
-.projetos {
+.main,
+.about-me,
+.skill,
+.projects {
   padding: 6.5% 15%;
   min-height: 35vh;
 }
@@ -100,7 +100,7 @@ a {
   color: white;
 }
 
-.principal {
+.main {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -108,19 +108,19 @@ a {
   min-height: 60vh;
 }
 
-.principal .scroll{
+.main .scroll{
   position: absolute;
   bottom: 1rem;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.principal .scroll p{
+.main .scroll p{
   padding: 1rem 0;
   display: inline-block;
 }
 
-.principal .scroll img {
+.main .scroll img {
   animation: scroll-down 3s infinite forwards;
 }
 
@@ -142,28 +142,28 @@ a {
 }
 
 
-.principal__left {
+.main__left {
   width: 50%;
   margin: 5rem 0;
 }
 
-.principal__right {
+.main__right {
   width: 30%;
   margin: 2rem 0;
   transition: all 5s ease-in-out;
 }
 
-.principal__right:hover {
+.main__right:hover {
   transform: scale(1.1);
 }
 
-.principal h1 {
+.main h1 {
   text-transform: uppercase;
   font-size: 1.5rem;
   margin: 1.5rem 0;
 }
 
-.principal span {
+.main span {
   font-size: 3rem;
   text-transform: uppercase;
   color: #00d2df;
@@ -171,7 +171,7 @@ a {
   letter-spacing: 3px;
 }
 
-.principal .principal__input-cursor {
+.main .main__input-cursor {
   width: 3px;
   height: 42px;
   background-color: white;
@@ -196,14 +196,14 @@ a {
   }
 }
 
-.principal__botao {
+.main__button {
   display: flex;
   width: 350px;
   justify-content: space-between;
 }
 
-.principal__botao-linkedin,
-.principal__botao-github {
+.main__button-linkedin,
+.main__button-github {
   display: flex;
   align-items: center;
   padding: 3px 5px 5px;
@@ -220,7 +220,7 @@ a {
   height: 40px;
 }
 
-.principal__botao-linkedin::before {
+.main__button-linkedin::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -235,8 +235,8 @@ a {
   animation: move infinite forwards 4s;
 }
 
-.principal__botao-linkedin:hover,
-.principal__botao-github:hover {
+.main__button-linkedin:hover,
+.main__button-github:hover {
   background-color: #272727;
   text-shadow: 1px 1px 3px #00bbc5;
 }
@@ -255,7 +255,7 @@ a {
   }
 }
 
-.principal__botao-github::before {
+.main__button-github::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -270,50 +270,50 @@ a {
   animation: move infinite forwards 4s;
 }
 
-.principal__botao-linkedin p,
-.principal__botao-github p,
-.principal__botao-github img {
+.main__button-linkedin p,
+.main__button-github p,
+.main__button-github img {
   padding: 9px 0 5px;
 }
 
-.principal__botao-linkedin img {
+.main__button-linkedin img {
   margin-right: 5px;
 }
 
-.principal__botao-linkedin img,
-.principal__botao-github img {
+.main__button-linkedin img,
+.main__button-github img {
   width: 22px;
 }
 
 @media (max-width: 880px) {
-  .principal,
-  .sobre-mim {
+  .main,
+  .about-me {
     padding: 22% 0;
     text-align: center;
   }
 
-  .principal {
+  .main {
     flex-direction: column;
   }
 
-  .principal__left {
+  .main__left {
     width: 90%;
   }
 
-  .principal__right {
+  .main__right {
     display: none;
   }
 
-  .principal__botao {
+  .main__button {
     width: 320px;
     margin: 1rem auto;
   }
-  .sobre-mim {
+  .about-me {
     flex-direction: column;
     gap: 2rem;
     align-items: center;
   }
-  .sobre-mim__foto {
+  .about-me__foto {
     width: 80%;
   }
 
@@ -323,20 +323,20 @@ a {
 }
 
 @media (max-width: 460px) {
-  .principal span {
+  .main span {
     font-size: 1.8rem;
   }
 
-  .principal .principal__input-cursor {
+  .main .main__input-cursor {
     height: 30px;
   }
 
-  .principal__botao-linkedin,
-  .principal__botao-github {
+  .main__button-linkedin,
+  .main__button-github {
     width: 110px;
   }
 
-  .principal__botao {
+  .main__button {
     width: auto;
     justify-content: space-around;
   }
@@ -346,7 +346,7 @@ a {
   }
 }
 
-.sobre-mim{
+.about-me{
   background-color: #151515;
   z-index: 0;
   position: relative;
@@ -360,41 +360,41 @@ h2 {
   font-size: 1rem;
 }
 
-.sobre-mim {
+.about-me {
   display: flex;
   justify-content: space-around;
 }
 
-.sobre-mim__text {
+.about-me__text {
   line-height: 1.5rem;
   width: 70%;
 }
 
-.sobre-mim h2 {
+.about-me h2 {
   margin-bottom: 1rem;
 }
 
-.sobre-mim__foto {
+.about-me__foto {
     max-width: 50%;
 }
 
-.sobre-mim__foto img {
+.about-me__foto img {
   border-left: 5px solid #00d2df;
   filter: opacity(55%);
   transition: 0.4s;
   width: 60%;
 }
 
-.sobre-mim__foto img:hover {
+.about-me__foto img:hover {
   filter: opacity(70%);
   border-left: 5px solid rgba(101, 24, 180, 1);
 }
 
-.principal {
+.main {
   padding: 6.5%;
 }
 
-.sobre-mim {
+.about-me {
   padding: 8;
 }
 
@@ -426,7 +426,7 @@ h2 {
   border: 1px solid #5252f8;;
 }
 
-.habilidades-tille {
+.skill-tille {
   margin-bottom: 65px;
 }
 
@@ -440,7 +440,7 @@ h2 {
   align-items: center;
 }
 
-.habilidades {
+.skill {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -448,7 +448,7 @@ h2 {
   padding-bottom: 200px;
 }
 
-.list-habilidades{
+.list-skill{
   width: 755px;
   font-size: 30px;
 }

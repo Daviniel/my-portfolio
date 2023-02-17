@@ -36,7 +36,7 @@
         <section class="main" id="home">
             <div class="main__left">
                 <h1>Olá, eu sou</h1>
-                <span class="main__sentence">Daviniel Nascimento</span>
+                <span class="main__sentence"></span>
                 <span class="main__input-cursor"></span>
                 <h1>Desenvolvedor Front-End</h1>
                 <div class="main__button">
@@ -60,7 +60,7 @@
             </div>
             <div class="scroll" data-menu="suave"><a href="#about" > <p> scroll down </p> <img src="img/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
         </section>
-        <section class="about-me animation" id="about">
+        <section class="about-me animation" id="about" data-anime="js-scroll">
             <div class="about-me__foto">
                 <img src="img/daviniel_sobre-mim.png" alt="Uma selfie de Daviniel">
             </div>
@@ -70,7 +70,7 @@
                 <p>Atualmente estou me dedicando para se tornar um Desenvolvedor Web Front-End, busco aperfeiçoar os meus conhecimentos e me esforçando para entrar no mercado de trabalho e ser um profissional melhor.</p>
             </div>
         </section>
-        <section class="skill animation" id="skill">
+        <section class="skill animation" id="skill" data-anime="js-scroll">
             <div class="img-skill">
                 <img class="img-skill-icon-left" src="img/coding.jpg" alt="skill-icon" width="300px">
             </div>
@@ -91,12 +91,14 @@
                 </div>
             </div>
         </section>
-        <section class="projects animation" id="projects">
+        <section class="projects animation" id="projects" data-anime="js-scroll">
 
         </section>
         <footer>
             <p>Desenvolvido por</p><a href="https://github.com/Daviniel" target="_blank"><span> Daviniel Nascimento</span></a>
         </footer>
     </main>
+    <script defer="defer" src="./js/script.js" type="module"></script>
+    <script defer="defer" src="./js/modules/vanilla-tilt.min.js"></script>
 </body>
 </html>

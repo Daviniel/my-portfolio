@@ -398,6 +398,17 @@ h2 {
   padding: 8;
 }
 
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
 .slide {
   font-size: 55px;
   text-align: center;
@@ -407,6 +418,11 @@ h2 {
   background-color: #141414;
   background-clip: content-box;
 }
+
+.slideshowDots {
+  text-align: center;
+}
+
 
 .slideshowDot {
   transition: 0.3s;
@@ -428,6 +444,32 @@ h2 {
 
 .skill-tille {
   margin-bottom: 65px;
+}
+
+.span-skill {
+  margin-right: 25px;
+}
+
+.div-skill {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.current-knowledge {
+  margin-top: 55px;
+}
+
+.div-content {
+  border-bottom: 3px dashed lightgray;
+}
+
+.container-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .div-content {

@@ -558,36 +558,15 @@ h6 {
   margin-left: -210%;
 }
 
-.navigation-auto div {
-  border: 1px solid lightgray;
-  padding: 10px;
-  border-radius: 200px;
-  cursor: pointer;
-  transition: 1s;
-  text-align: center;
-}
-
-.navigation-auto {
-  position: absolute;
-  width: 400px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-}
-
-.navigation-auto div:not(:last-child) {
-  margin-right: 45px;
-}
-
-#radio1:checked~.navigation-auto .auto-btn1 {
-  background-color: rgba(101, 24, 180, 1);
+#radio1:checked~.slideshowDots .dot1 {
+  background-color: #00d2df;
 }
 
 
-#radio2:checked~.navigation-auto .auto-btn2 {
-  background-color: rgba(101, 24, 180, 1);
+#radio2:checked~.slideshowDots .dot2 {
+  background-color: #00d2df;
 }
 
-#radio3:checked~.navigation-auto .auto-btn3 {
-  background-color: rgba(101, 24, 180, 1);
+#radio3:checked~.slideshowDots .dot3 {
+  background-color: #00d2df;
 }

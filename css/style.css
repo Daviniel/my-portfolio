@@ -1,5 +1,4 @@
 @import 'menu-mobile.css';
-@import 'skill';
 
 body {
     margin: 0;
@@ -441,4 +440,147 @@ footer span:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #00bbc5;
+}
+
+
+.skill {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.skill-title {
+  font-size: 40px;
+  margin-bottom: 65px;
+}
+
+.img-skill-icon-left {
+  width: 400px;
+  transition: 0.3s;
+} 
+
+.container-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-content {
+  border-bottom: 3px dashed lightgray;
+}
+
+.current-knowledge {
+  margin-top: 55px;
+}
+
+.div-skill {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.span-skill {
+  margin-right: 25px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 400px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slideshowSlider input {
+  display: none;
+}
+
+.slide {
+  font-size: 55px;
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  background-color: #141414;
+  background-clip: content-box;
+  position: relative;
+}
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  transition: 0.3s;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #c4c4c4;
+  border: 1px solid #c4c4c4;
+}
+
+.slideshowDot:not(:last-child) {
+  margin-right: 40px;
+}
+
+.slideshowDot:hover{
+  border: 1px solid #00d2df;;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -100%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -210%;
+}
+
+.navigation-auto div{
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 1s;
+  text-align: center;
+}
+
+.navigation-auto {
+  position: absolute;
+  width: 400px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 45px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: rgba(101, 24, 180, 1);
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn1{
+  background-color: rgba(101, 24, 180, 1);
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn1{
+  background-color: rgba(101, 24, 180, 1);
 }

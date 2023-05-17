@@ -1,0 +1,38 @@
+.projects {
+    background-color: #151515;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.header-project {
+    font-size: 30px;
+}
+
+.title-project {
+    color: rgba(101, 24, 180, 1);
+    font-size: 25px;
+}
+
+.description-project {
+    font-size: 20px;
+    margin-top: 15px;
+    padding-left: 15px;
+    width: 750px;
+}
+
+.link-to-project {
+    margin-top: 10px;
+}
+
+.link-text:hover {
+    transition: .4s;
+    color: rgba(101, 24, 180, 1);
+}
+
+.img-content {
+    align-items: center;
+    display: flex;
+}

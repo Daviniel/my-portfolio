@@ -101,18 +101,41 @@
 }
 
 #radio3:checked~.first {
-    margin-left: -210%;
+    margin-left: -201%;
+}
+
+#radio4:checked~.first {
+    margin-left: -305%;
+}
+
+#radio5:checked~.first {
+    margin-left: -405%;
+}
+
+#radio6:checked~.first {
+    margin-left: -510%;
 }
 
 #radio1:checked~.slideshowDots .dot1 {
     background-color: #00d2df;
 }
 
-
 #radio2:checked~.slideshowDots .dot2 {
     background-color: #00d2df;
 }
 
 #radio3:checked~.slideshowDots .dot3 {
+    background-color: #00d2df;
+}
+
+#radio4:checked~.slideshowDots .dot4 {
+    background-color: #00d2df;
+}
+
+#radio5:checked~.slideshowDots .dot5 {
+    background-color: #00d2df;
+}
+
+#radio6:checked~.slideshowDots .dot6 {
     background-color: #00d2df;
 }

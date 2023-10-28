@@ -3,10 +3,10 @@ export default function initSlideSkill() {
     document.getElementById("radio1").setAttribute.checked = true;
     setInterval(function () {
         nextImage()
-    }, 5000)
+    }, 4000)
     function nextImage(){
         count++;
-        if(count > 3 ) {
+        if(count > 6 ) {
             count = 1;
         }
 

@@ -32,6 +32,11 @@
     color: rgba(101, 24, 180, 1);
 }
 
+.div-project-all {
+    margin-top: 25px;
+    text-align: center;
+}
+
 .img-content {
     align-items: center;
     display: flex;

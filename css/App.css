@@ -1,8 +1,9 @@
-@import 'style section/menu-mobile.css';
-@import 'style section/main.css';
-@import 'style section/about-me.css';
-@import 'style section/skill.css';
-@import 'style section/project.css';
+@import 'style-section/menu-mobile.css';
+@import 'style-section/main.css';
+@import 'style-section/about-me.css';
+@import 'style-section/skill.css';
+@import 'style-section/project.css';
+@import 'style-section/responsive.css';
 
 body {
   margin: 0;

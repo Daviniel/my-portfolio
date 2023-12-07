@@ -1,0 +1,97 @@
+@media (max-width: 400px) {
+  .about-content {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    padding: 15px 15px 200px 15px;
+  }
+
+  hr {
+    width: 150px;
+    border: 1px solid #131313;
+  }
+
+  .about-me-name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-my-name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    width: 300px;
+    font-size: 35px;
+  }
+
+
+  .description-me {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 45px;
+  }
+
+  .full-stack {
+    color: black;
+    background-color: #fc6969;
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+  }
+
+  .front-end {
+    color: black;
+    background-color: #5151ee;
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+  }
+
+  .my-photo {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 13px 7px 25px #232323;
+  }
+
+  .about-div {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1290px) and (min-width: 768px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-div {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 401px) {
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-div {
+    margin-bottom: 50px;
+  }
+
+  .description-me {
+    font-size: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}

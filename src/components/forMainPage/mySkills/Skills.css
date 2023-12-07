@@ -1,0 +1,25 @@
+.skill-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+
+.skill-list-ul {
+  width: 755px;
+  font-size: 40px;
+}
+
+.title-list-skill {
+  margin-bottom: 35px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.img-skill-icon-left {
+  transition: 0.3s;
+} 

@@ -1,0 +1,128 @@
+@media (max-width: 1325px) {
+  .main h1 {
+    font-size: 1rem;
+  }
+  .main span {
+    font-size: 2.2rem;
+  }
+
+  .main .main__input-cursor {
+    height: 35px;
+  }
+
+  .main,
+  .about-me,
+  .skill,
+  .projects {
+    padding: 6.5%;
+  }
+}
+
+@media (max-width: 1368px) and (min-width: 912px) {
+.img-content {
+  display: none;
+}
+}
+
+@media (max-width: 650px) and (min-width: 401px) {
+.header-project {
+  font-size: 25px;
+}
+}
+
+@media (max-width: 880px) {
+  .main,
+  .about-me,
+  .skill,
+  .projects {
+    padding: 22% 0;
+    text-align: center;
+  }
+
+  .title-project {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .div-project {
+    padding: 8%;
+    text-align: center;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .main__left {
+    width: 90%;
+  }
+
+  .main__right {
+    display: none;
+  }
+
+  .main__button {
+    width: 320px;
+    margin: 1rem auto;
+  }
+
+  .projects,
+  .div-project,
+  .about-me {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .about-me__foto {
+    max-width: 80%;
+  }
+
+  .about-me__text {
+    width: 80%;
+  }
+
+  .main__button {
+    width: 320px;
+    margin: 1rem auto;
+  }
+
+  .projects__wrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 5%;
+    margin-bottom: 10rem;
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .description-project {
+      max-width: 80%;
+  }
+
+  .img-content,
+  .img-skill {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .main span {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .main__button-linkedin,
+  .main__button-github {
+    width: 110px;
+  }
+
+  .main__button {
+    width: auto;
+    justify-content: space-around;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}

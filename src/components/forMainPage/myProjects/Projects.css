@@ -1,0 +1,44 @@
+.project-content {
+  background-color: #151515;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.description-project {
+  width: 750px;
+  margin-top: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.img-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-content-project {
+  padding-bottom: 30px;
+  font-size: 45px;
+}
+
+.title-project {
+  color: #8989f5;
+  font-size: 25px;
+}
+
+.div-project {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #141414;
+}
+
+.link-to-project {
+  margin-top: 10px;
+}
+
+.img-content-projects {
+  transition: 0.3s;
+} 

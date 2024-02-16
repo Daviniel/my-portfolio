@@ -21,8 +21,6 @@ export default function MyTyped() {
   }, []);
 
   return (
-    <div className="my-typed-animation">
-      <span ref={el}></span>
-    </div>
+    <span ref={el}></span>
   );
 }

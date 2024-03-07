@@ -4,7 +4,7 @@ import './AboutMeResponse.css';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
-import DavinielDeveloper from '../../../assets/DavinielDeveloper.pdf';
+import DavinielNascimento_cv from '../../../assets/DavinielNascimento_cv.pdf';
 
 import download from '../../../img/icon/download-da-nuvem.png';
 
@@ -25,7 +25,7 @@ export default function AboutMe() {
         <h2>Campina Grande, Paraíba</h2>
         <p>Atualmente sou Desenvolvedor Full-Stak, dia após dia busco aperfeiçoar os meus conhecimentos para poder me ingressar no mercado de desenvolvedor, podendo assim aplicar meus conhecimentos.</p>
         <div className='about__button'>
-          <a href={ DavinielDeveloper } download="">
+          <a href={ DavinielNascimento_cv } download="">
             <div className="about__button-download">
               <img src={ download } alt="download"/>
               <p>Currículo</p>
